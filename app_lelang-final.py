@@ -25,12 +25,12 @@ st.markdown("""
 # ==========================================
 if 'gallery_data' not in st.session_state:
     st.session_state.gallery_data = {
-        "Mitsubishi Lancer Evolution VI GSR": {
+        "Mitsubishi Lancer Evolution VI GSR/Mitsubishi Lancer Evolution VI GSR": {
             "images": [
-                "images/Mitsubishi Lancer Evolution VI GSR View_A.avif", "images/Mitsubishi Lancer Evolution VI GSR View_B.avif", 
-                "images/Mitsubishi Lancer Evolution VI GSR View_C.avif", "images/Mitsubishi Lancer Evolution VI GSR View_D.avif", 
-                "images/Mitsubishi Lancer Evolution VI GSR View_E.avif", "images/Mitsubishi Lancer Evolution VI GSR View_F.avif", 
-                "images/Mitsubishi Lancer Evolution VI GSR View_G.avif", "images/Mitsubishi Lancer Evolution VI GSR View_H.avif"
+                "images/Mitsubishi Lancer Evolution VI GSR/Mitsubishi Lancer Evolution VI GSR View_A.avif", "images/Mitsubishi Lancer Evolution VI GSR/Mitsubishi Lancer Evolution VI GSR View_B.avif", 
+                "images/Mitsubishi Lancer Evolution VI GSR/Mitsubishi Lancer Evolution VI GSR View_C.avif", "images/Mitsubishi Lancer Evolution VI GSR/Mitsubishi Lancer Evolution VI GSR View_D.avif", 
+                "images/Mitsubishi Lancer Evolution VI GSR/Mitsubishi Lancer Evolution VI GSR View_E.avif", "images/Mitsubishi Lancer Evolution VI GSR/Mitsubishi Lancer Evolution VI GSR View_F.avif", 
+                "images/Mitsubishi Lancer Evolution VI GSR/Mitsubishi Lancer Evolution VI GSR View_G.avif", "images/Mitsubishi Lancer Evolution VI GSR/Mitsubishi Lancer Evolution VI GSR View_H.avif"
             ],
             "tahun": "1999 (Special Edition)", "specs": "4G63 2.0L Turbo, 280 PS", "driver": "Tommi Mäkinen 🇫🇮",
             "price": 1500000000, "highest_bidder": "Belum ada"
@@ -207,3 +207,4 @@ if st.session_state.bid_history:
     st.table(pd.DataFrame(st.session_state.bid_history))
 else:
     st.info("Belum ada aktivitas lelang.")
+
